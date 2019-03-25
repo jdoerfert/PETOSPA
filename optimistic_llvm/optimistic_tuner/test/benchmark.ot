@@ -1,0 +1,39 @@
+{
+    "__type__": "Benchmark",
+    "name": "test",
+    "source_files": [
+        {
+            "__type__": "SourceFile",
+            "path": "main.c",
+            "options": [],
+            "only_functions": ["oo", "b"]
+        }
+    ],
+    "input_output_pairs": [
+        {
+            "__type__": "InputOutputPair",
+            "input": [],
+            "output": "",
+            "timeout": 1,
+            "returncode": 1,
+            "use_stdout": true,
+            "use_stderr": true
+        },
+        {
+            "__type__": "InputOutputPair",
+            "input": ["a"],
+            "output": "",
+            "timeout": 1,
+            "returncode": 1,
+            "use_stdout": true,
+            "use_stderr": true
+        }
+    ],
+    "options": [
+        "-O1",
+        "-c"
+    ],
+    "executable": "./a.out",
+    "make_cmd": "make"
+}
+
