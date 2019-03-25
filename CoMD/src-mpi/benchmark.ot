@@ -1,0 +1,44 @@
+{
+    "__type__": "Benchmark",
+    "name": "CoMD",
+    "source_files": [
+        {
+            "__type__": "SourceFile",
+            "path": "ljForce.c",
+            "options": [],
+            "only_functions": ["ljForce"]
+        }
+    ],
+    "input_output_pairs": [
+        {
+            "__type__": "InputOutputPair",
+            "input": ["-x", "64", "-y", "64", "-z", "25"],
+            "output": "./result_64_64_25.txt",
+            "timeout": 999,
+            "returncode": 0,
+            "use_stdout": true,
+            "use_stderr": true
+        },
+        {
+            "__type__": "InputOutputPair",
+            "input": ["-x", "10", "-y", "10", "-z", "10"],
+            "output": "./result_10_10_10.txt",
+            "timeout": 999,
+            "returncode": 0,
+            "use_stdout": true,
+            "use_stderr": true
+        }
+    ],
+    "options": [
+        "-std=c99",
+        "-DDOUBLE",
+        "-O3",
+        "-march=native",
+        "-g",
+        "-c"
+    ],
+    "executable": "./CoMD-serial",
+    "make_cmd": "make",
+    "verify_cmd": ""
+}
+

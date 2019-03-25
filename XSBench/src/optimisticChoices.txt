@@ -1,0 +1,127 @@
+[OC][2][no-alias][Par][NoAlias  ] @ A in grid_search_nuclide
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub6 in calculate_micro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub17 in calculate_micro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub27 in calculate_micro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub45 in calculate_micro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub50 in calculate_micro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ add in calculate_micro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ add57 in calculate_micro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub75 in calculate_micro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub87 in calculate_micro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ add in grid_search_nuclide
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub2 in grid_search_nuclide
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc in calculate_macro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ mul in calculate_macro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc37 in calculate_macro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ add in grid_search
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub3 in grid_search
+[OC][2][internal][Fn][Internaliz] @ grid_search in grid_search
+[OC][3][dereferenceable(1024)][Par][Dereferen] @ energy_grid in calculate_micro_xs
+[OC][3][dereferenceable(512)][Par][Dereferen] @ nuclide_grids in calculate_micro_xs
+[OC][3][dereferenceable(512)][Par][Dereferen] @ xs_vector in calculate_micro_xs
+[OC][3][dereferenceable(3072)][Par][Dereferen] @ A in grid_search_nuclide
+[OC][3][dereferenceable(256)][Par][Dereferen] @ num_nucs in calculate_macro_xs
+[OC][3][dereferenceable(512)][Par][Dereferen] @ concs in calculate_macro_xs
+[OC][3][dereferenceable(1024)][Par][Dereferen] @ energy_grid in calculate_macro_xs
+[OC][3][dereferenceable(512)][Par][Dereferen] @ nuclide_grids in calculate_macro_xs
+[OC][3][dereferenceable(512)][Par][Dereferen] @ mats in calculate_macro_xs
+[OC][3][dereferenceable(512)][Par][Dereferen] @ macro_xs_vector in calculate_macro_xs
+[OC][3][dereferenceable(1024)][Par][Dereferen] @ A in grid_search
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v in calculate_micro_xs
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v210 in calculate_micro_xs
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v211 in calculate_micro_xs
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v212 in calculate_micro_xs
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v213 in calculate_micro_xs
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v214 in calculate_micro_xs
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v215 in calculate_micro_xs
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v216 in calculate_micro_xs
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v in calculate_macro_xs
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v65 in calculate_macro_xs
+[OC][3][param aligned(64)][Par][NoCapture] @ energy_grid in calculate_micro_xs
+[OC][3][param aligned(64)][Par][NoCapture] @ nuclide_grids in calculate_micro_xs
+[OC][3][param aligned(64)][Par][NoCapture] @ xs_vector in calculate_micro_xs
+[OC][3][param aligned(64)][Par][NoCapture] @ A in grid_search_nuclide
+[OC][3][param aligned(64)][Par][NoCapture] @ num_nucs in calculate_macro_xs
+[OC][3][param aligned(64)][Par][NoCapture] @ concs in calculate_macro_xs
+[OC][3][param aligned(64)][Par][NoCapture] @ energy_grid in calculate_macro_xs
+[OC][3][param aligned(64)][Par][NoCapture] @ nuclide_grids in calculate_macro_xs
+[OC][3][param aligned(64)][Par][NoCapture] @ mats in calculate_macro_xs
+[OC][3][param aligned(64)][Par][NoCapture] @ macro_xs_vector in calculate_macro_xs
+[OC][3][param aligned(64)][Par][NoCapture] @ A in grid_search
+[OC][3][load aligned(64)][Mem][Alignment] @ v in grid_search_nuclide
+[OC][3][store aligned(64)][Mem][Alignment] @  in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v66 in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v67 in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v65 in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v68 in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v69 in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v70 in calculate_macro_xs
+[OC][3][store aligned(64)][Mem][Alignment] @  in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v in grid_search
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v in calculate_micro_xs
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v210 in calculate_micro_xs
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v211 in calculate_micro_xs
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v212 in calculate_micro_xs
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v213 in calculate_micro_xs
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v214 in calculate_micro_xs
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v215 in calculate_micro_xs
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v216 in calculate_micro_xs
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v in calculate_macro_xs
+[OC][4][cfg speculation][CFG][BranchTrg] @ grid_type in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v210 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v211 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v217 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v212 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v213 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v218 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v214 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v219 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v215 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v220 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v221 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v216 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v222 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v223 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v224 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v225 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v226 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v227 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v228 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v229 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v230 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v231 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v232 in calculate_micro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v233 in calculate_micro_xs
+[OC][4][param read-none][Par][MemAccess] @ xs_vector in calculate_micro_xs
+[OC][14][function write-only inaccessible memory][Fn][MemEffects] @ calculate_micro_xs in calculate_micro_xs
+[OC][14][function speculative read-none][Fn][MemEffects] @ grid_search_nuclide in grid_search_nuclide
+[OC][14][function speculative read-none][Fn][MemEffects] @ grid_search in grid_search
+[OC][8][function write-only inaccessible memory][Fn][MemEffects] @ llvm.assume in llvm.assume
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub17 in calculate_micro_xs
+[OC][2][nuw binop][Op ][NoUnsWrap] @ sub27 in calculate_micro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v211.i in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v217.i in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v212.i in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v222.i in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v225.i in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v226.i in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v227.i in calculate_macro_xs
+[OC][3][store aligned(64)][Mem][Alignment] @  in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v228.i in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v229.i in calculate_macro_xs
+[OC][3][store aligned(64)][Mem][Alignment] @  in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v230.i in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v231.i in calculate_macro_xs
+[OC][3][store aligned(64)][Mem][Alignment] @  in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v232.i in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v233.i in calculate_macro_xs
+[OC][3][store aligned(64)][Mem][Alignment] @  in calculate_macro_xs
+[OC][3][load aligned(64)][Mem][Alignment] @ v223.i in calculate_macro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v6674 in calculate_macro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v in calculate_macro_xs
+[OC][2][invariant load][Ld ][Invariant] @ v65 in calculate_macro_xs
+[OC][2][parallel loop][Lop][ParallelI] @ while.body in grid_search_nuclide
+[OC][2][parallel loop][Lop][ParallelI] @ for.body13 in calculate_macro_xs
+[OC][2][parallel loop][Lop][ParallelI] @ while.body.i in calculate_macro_xs

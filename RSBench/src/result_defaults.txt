@@ -1,0 +1,41 @@
+                                  INPUT SUMMARY
+================================================================================
+Simulation Method:           History Based
+Materials:                   12
+H-M Benchmark Size:          Large
+Temperature Dependence:      ON
+Total Nuclides:              355
+Avg Poles per Nuclide:       1,000
+Avg Windows per Nuclide:     100
+Particles:                   300,000
+XS Lookups per Particle:     34
+Total XS Lookups:            10,200,000
+Threads:                     \d+
+Est. Memory Usage \(MB\):      25.5
+================================================================================
+                                 INITIALIZATION
+================================================================================
+Generating resonance distributions...
+Generating window distributions...
+Loading Hoogenboom-Martin material data...
+Generating resonance parameter grid...
+Generating window parameter grid...
+Generating 0K l_value data...
+Initialization Complete. \(\d+.\d+ seconds\)
+================================================================================
+                                   SIMULATION
+================================================================================
+Beginning Simulation.
+Calculating XS's...
+Beginning history based simulation...
+
+Simulation Complete.
+================================================================================
+                                     RESULTS
+================================================================================
+Threads:               \d+
+Slow Faddeeva:         0.53%
+Runtime:               \d+.\d+ seconds
+Lookups:               10,200,000
+Verification checksum: 425149 \(Valid\)
+================================================================================

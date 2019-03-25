@@ -1,0 +1,15 @@
+Expected search results output for:
+    PathFinder.x -x 1kx750.adj_list
+    PathFinder.x -x 2kx750.adj_list
+    PathFinder.x -x 4kx750.adj_list
+    PathFinder.x -x 6kx750.adj_list
+    PathFinder.x -x 8kx750.adj_list
+    PathFinder.x -x 10kx750.adj_list
+
+Functions   Nodes   Labels  Paths
+1000    6873    709 182666
+2000    14111   724 184097
+4000    28454   737 249172
+6000    43676   742 231463
+8000    56577   742 212432
+10000   73433   749 202894

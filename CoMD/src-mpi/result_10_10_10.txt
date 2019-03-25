@@ -1,0 +1,69 @@
+Command Line Parameters:
+  doeam: 0
+  potDir: pots
+  potName: Cu_u6.eam
+  potType: funcfl
+  nx: 10
+  ny: 10
+  nz: 10
+  xproc: 1
+  yproc: 1
+  zproc: 1
+  Lattice constant: -1 Angstroms
+  nSteps: 100
+  printRate: 10
+  Time step: 1 fs
+  Initial Temperature: 600 K
+  Initial Delta: 0 Angstroms
+
+Simulation data: 
+  Total atoms        : 4000
+  Min global bounds  : \[   0.0000000000,   0.0000000000,   0.0000000000 \]
+  Max global bounds  : \[  36.1500000000,  36.1500000000,  36.1500000000 \]
+
+Decomposition data: 
+  Processors         :      1,     1,     1
+  Local boxes        :      6,     6,     6 =      216
+  Box size           : \[   6.0250000000,   6.0250000000,   6.0250000000 \]
+  Box factor         : \[   1.0410367171,   1.0410367171,   1.0410367171 \] 
+  Max Link Cell Occupancy: 32 of 64
+
+Potential data: 
+  Potential type   : Lennard-Jones
+  Species name     : Cu
+  Atomic number    : 29
+  Mass             : 63.55 amu
+  Lattice Type     : FCC
+  Lattice spacing  : 3.615 Angstroms
+  Cutoff           : 5.7875 Angstroms
+  Epsilon          : 0.167 eV
+  Sigma            : 2.315 Angstroms
+
+Memory data: 
+  Intrinsic atom footprint =   88 B/atom 
+  Total atom footprint     =   0.336 MB \(  0.34 MB/node\)
+  Link cell atom footprint =   1.160 MB/node
+  Link cell atom footprint =   2.750 MB/node \(including halo cell data
+
+
+Initial energy : -1.166063303478, atom count : 4000 
+
+#                                                                                         Performance
+#  Loop   Time\(fs\)       Total Energy   Potential Energy     Kinetic Energy  Temperature   \(us/atom\)     # Atoms
+      0       0.00    -1.166063303478    -1.243619295078     0.077555991600     600.0000     \d.\d+         4000
+     10      10.00    -1.166059664379    -1.233186130247     0.067126465868     519.3136     \d.\d+         4000
+     20      20.00    -1.166048585439    -1.208274662990     0.042226077550     326.6756     \d.\d+         4000
+     30      30.00    -1.166037771702    -1.186652085648     0.020614313945     159.4795     \d.\d+         4000
+     40      40.00    -1.166042086183    -1.183602891400     0.017560805218     135.8565     \d.\d+         4000
+     50      50.00    -1.166051805638    -1.193739144295     0.027687338657     214.1988     \d.\d+         4000
+     60      60.00    -1.166054847148    -1.202783490410     0.036728643261     284.1455     \d.\d+         4000
+     70      70.00    -1.166052293517    -1.205005747112     0.038953453595     301.3574     \d.\d+         4000
+     80      80.00    -1.166048889960    -1.203599988352     0.037551098392     290.5083     \d.\d+         4000
+     90      90.00    -1.166048093021    -1.203666723426     0.037618630405     291.0307     \d.\d+         4000
+
+
+Simulation Validation:
+  Initial energy  : -1.166063303478
+  Final energy    : -1.166049902620
+  eFinal/eInitial : 0.999989
+  Final atom count : 4000, no atoms lost

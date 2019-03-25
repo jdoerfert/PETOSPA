@@ -1,0 +1,38 @@
+{
+    "__type__": "Benchmark",
+    "name": "RSBench",
+    "source_files": [
+        {
+            "__type__": "SourceFile",
+            "path": "xs_kernel.c",
+            "options": [],
+            "only_functions": []
+        }
+    ],
+    "input_output_pairs": [
+        {
+            "__type__": "InputOutputPair",
+            "input": [],
+            "output": "./result_defaults.txt",
+            "timeout": 999,
+            "returncode": 0,
+            "use_stdout": true,
+            "use_stderr": true
+        }
+    ],
+    "options": [
+        "-std=gnu99",
+        "-fopenmp",
+        "-Wall",
+        "-march=native",
+        "-g",
+        "-DVERIFICATION",
+        "-c",
+        "-ffast-math",
+        "-Ofast"
+    ],
+    "executable": "./rsbench",
+    "make_cmd": "make",
+    "verify_cmd": ""
+}
+

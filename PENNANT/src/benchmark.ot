@@ -1,0 +1,44 @@
+{
+    "__type__": "Benchmark",
+    "name": "PENNANT",
+    "source_files": [
+        {
+            "__type__": "SourceFile",
+            "path": "QCS.cc",
+            "options": [],
+            "only_functions": ["_ZN3QCS12setCornerDivEPdS0_S0_S0_S0_ii", "_ZN3QCS11setQCnForceEPKdS1_S1_P7double2ii"]
+        },
+        {
+            "__type__": "SourceFile",
+            "path": "Mesh.cc",
+            "options": [],
+            "only_functions": ["_ZN4Mesh8calcCtrsEPK7double2PS0_S3_ii", "_ZN4Mesh8calcVolsEPK7double2S2_PdS3_S3_S3_ii"]
+        }
+    ],
+    "input_output_pairs": [
+        {
+            "__type__": "InputOutputPair",
+            "input": ["leblancbig.pnt"],
+            "output": "./leblancbig.out",
+            "timeout": 999,
+            "returncode": 0,
+            "use_stdout": true,
+            "use_stderr": true
+        }
+    ],
+    "options": [
+        "-O3",
+        "-march=native",
+        "-ffast-math",
+        "-fopenmp",
+        "-g",
+        "-c",
+        "-I",
+        "/home/bhomerding/include",
+        "-L",
+        "/home/bhomerding/lib"
+    ],
+    "executable": "./pennant",
+    "make_cmd": "make"
+}
+

@@ -1,0 +1,40 @@
+                                  INPUT SUMMARY
+================================================================================
+Verification Mode:            on
+Simulation Method:            History Based
+Grid Type:                    Unionized Grid
+Materials:                    12
+H-M Benchmark Size:           large
+Total Nuclides:               355
+Gridpoints \(per Nuclide\):     11,303
+Unionized Energy Gridpoints:  4,012,565
+Particle Histories:           500,000
+XS Lookups per Particle:      34
+Total XS Lookups:             34
+Threads:                      \d+
+Est. Memory Usage \(MB\):       5,678
+================================================================================
+                         INITIALIZATION - DO NOT PROFILE
+================================================================================
+Generating Nuclide Energy Grids...
+Sorting Nuclide Energy Grids...
+Generating Unionized Energy Grid...
+Copying and Sorting all nuclide grids...
+Assigning energies to unionized grid...
+Assigning pointers to Unionized Energy Grid...
+Loading Mats...
+
+================================================================================
+                                   SIMULATION
+================================================================================
+Beginning history based simulation...
+
+Simulation complete.
+================================================================================
+                                     RESULTS
+================================================================================
+Threads:     \d+
+Lookups:     17,000,000
+Lookups/s:   
+Verification checksum: 76214 \(Valid\)
+================================================================================

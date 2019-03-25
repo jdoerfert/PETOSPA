@@ -1,0 +1,7 @@
+1. Build optimistic_llvm
+
+2. Add clang to your path
+
+3. cd into a benchmark then into the folder which contains the benchmark.ot
+
+4. python3.7 path/to/optimistic_llvm/optimistic_tuner/optmistic_tuner.py benchmark.ot

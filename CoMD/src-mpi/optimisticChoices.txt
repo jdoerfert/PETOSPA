@@ -1,0 +1,176 @@
+[OC][2][no-alias][Par][NoAlias  ] @ s in ljForce
+[OC][2][no-alias][Par][NoAlias  ] @ a in zeroReal3
+[OC][2][nuw binop][Op ][NoUnsWrap] @ mul4 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ mul42 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ mul51 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc165 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc166 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc90 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc154 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc159 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc160 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc175 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ inc182 in ljForce
+[OC][2][no-unwind][Fn][NoUnwind  ] @ getNeighborBoxes in getNeighborBoxes
+[OC][3][dereferenceable(5120)][Par][Dereferen] @ s in ljForce
+[OC][3][dereferenceable(512)][Par][Dereferen] @ a in zeroReal3
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v316 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v317 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v318 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v319 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v320 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v321 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v322 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v323 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v324 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v325 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v326 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v327 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v328 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v329 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v330 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v331 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v332 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v333 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v334 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v335 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v336 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v337 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v338 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v339 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v340 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v in ljDestroy
+[OC][3][param aligned(8)][Par][NoCapture] @ a in zeroReal3
+[OC][3][load aligned(64)][Mem][Alignment] @ v317 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v318 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v319 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v320 in ljForce
+[OC][3][store aligned(64)][Mem][Alignment] @  in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v321 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v341 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v322 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v342 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v343 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v323 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v324 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v344 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v325 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v326 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v345 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v327 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v328 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v346 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v329 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v347 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v330 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v349 in ljForce
+[OC][3][store aligned(64)][Mem][Alignment] @  in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v332 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v333 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v350 in ljForce
+[OC][3][store aligned(64)][Mem][Alignment] @  in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v334 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v335 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v351 in ljForce
+[OC][3][store aligned(64)][Mem][Alignment] @  in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v336 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v352 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v353 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v337 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v338 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v354 in ljForce
+[OC][3][store aligned(64)][Mem][Alignment] @  in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v355 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v339 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v340 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v356 in ljForce
+[OC][3][store aligned(64)][Mem][Alignment] @  in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v316 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v317 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v318 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v319 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v320 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v321 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v322 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v323 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v324 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v325 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v326 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v327 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v328 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v329 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v330 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v331 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v332 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v333 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v334 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v335 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v336 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v337 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v338 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v339 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v in ljDestroy
+[OC][2][invariant load][Ld ][Invariant] @ v in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v357 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v358 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v359 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v316 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v360 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v321 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v323 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v327 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v329 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v330 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v332 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v334 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v336 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v337 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v339 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v in ljDestroy
+[OC][2][invariant load][Ld ][Invariant] @ v in initLjPot
+[OC][2][invariant load][Ld ][Invariant] @ v in ljPrint
+[OC][4][param read-none][Par][MemAccess] @ s in ljForce
+[OC][4][param read-none][Par][MemAccess] @ a in zeroReal3
+[OC][14][function write-only inaccessible memory][Fn][MemEffects] @ zeroReal3 in zeroReal3
+[OC][14][function speculative read-none][Fn][MemEffects] @ getNeighborBoxes in getNeighborBoxes
+[OC][14][function speculative read-none][Fn][MemEffects] @ __assert_fail in __assert_fail
+[OC][3][store aligned(64)][Mem][Alignment] @  in ljForce
+[OC][3][store aligned(64)][Mem][Alignment] @  in ljForce
+[OC][2][nsw binop][Op ][NoSgnWrap] @ v in ljForce
+[OC][2][nsw binop][Op ][NoSgnWrap] @ indvars.iv.next397 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ v in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ indvars.iv.next394 in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ indvars.iv.next in ljForce
+[OC][2][nuw binop][Op ][NoUnsWrap] @ indvars.iv.next397 in ljForce
+[OC][3][load dereferenceable(512)][Mem][Dereferen] @ v331 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v331 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v348.us.2 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v348 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v348.2 in ljForce
+[OC][3][loaded ptr aligned(64)][Mem][ResAlign ] @ v331 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v317 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v318 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v320 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v341378 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v322 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v325 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v348.us in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v348.us.1 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v348.us.2 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v333.us in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v338.us in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v348 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v348.1 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v348.2 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v333 in ljForce
+[OC][2][invariant load][Ld ][Invariant] @ v338 in ljForce
+[OC][3][load aligned(64)][Mem][Alignment] @ v348.us in ljForce
+[OC][2][parallel loop][Lop][ParallelI] @ for.body55 in ljForce
+[OC][2][parallel loop][Lop][ParallelI] @ for.body55.us in ljForce
+[OC][2][parallel loop][Lop][ParallelI] @ for.body in ljForce
+[OC][2][parallel loop][Lop][ParallelO] @ for.body21 in ljForce
+[OC][2][parallel loop][Lop][ParallelO] @ for.body31 in ljForce
+[OC][2][parallel loop][Lop][ParallelO] @ for.body47 in ljForce

@@ -1,0 +1,14 @@
+--- Mesh Information ---
+Points:  232001
+Zones:  230400
+Sides:  921600
+Edges:  462400
+Side chunks:  1800
+Point chunks:  454
+Zone chunks:  450
+Chunk size:  512
+------------------------
+Energy check:  total energy  =   9.424778e-01
+\(internal =   9.424778e-01, kinetic =   0.000000e\+00\)
+Energy check:  total energy  =   9.424778e-01
+\(internal =   7.367546e-01, kinetic =   2.057232e-01\)

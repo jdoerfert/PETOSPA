@@ -1,0 +1,40 @@
+{
+    "__type__": "Benchmark",
+    "name": "XSBench",
+    "source_files": [
+        {
+            "__type__": "SourceFile",
+            "path": "CalculateXS.c",
+            "options": [],
+            "only_functions": []
+        }
+    ],
+    "input_output_pairs": [
+        {
+            "__type__": "InputOutputPair",
+            "input": ["-m", "history", "-s", "large", "-l", "34", "-p", " 500000", "-G", "unionized"],
+            "output": "./result_defaults.txt",
+            "timeout": 999,
+            "returncode": 0,
+            "use_stdout": true,
+            "use_stderr": true
+        }
+    ],
+    "options": [
+        "-std=gnu99",
+        "-fopenmp",
+        "-O3",
+        "-march=native",
+        "-g",
+        "-DVERIFICATION",
+        "-c",
+        "-I",
+        "/home/bhomerding/include",
+        "-L",
+        "/home/bhomerding/lib"
+    ],
+    "executable": "./XSBench",
+    "make_cmd": "make",
+    "verify_cmd": ""
+}
+

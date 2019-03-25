@@ -1,0 +1,30 @@
+Sep 17, 18:23:01 - INFO       - Compiled source file version are copied to /tmp
+Sep 17, 18:23:01 - INFO       - Debug output is logged to /tmp/debug.log
+Sep 17, 18:23:01 - INFO       - Mismatch outputs is stored to /tmp/io_mismatches.txt
+../../optimistic_tuner.py:341: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  assert(isinstance(options, collections.Iterable) and
+Sep 17, 18:23:01 - INFO       - Start benchmark PENNANT
+Sep 17, 18:23:01 - DEBUG      - - Change base directory to: /home/bhomerding/repo/optimistic_llvm/optimistic_tuner/PENNANT/src
+Sep 17, 18:23:01 - DEBUG      -    - Touch QCS.cc
+Sep 17, 18:23:01 - DEBUG      -    - Touch Mesh.cc
+Sep 17, 18:23:01 - DEBUG      -    - Build benchmark (make)
+Traceback (most recent call last):
+  File "../../optimistic_tuner.py", line 860, in <module>
+    ex.run()
+  File "../../optimistic_tuner.py", line 401, in run
+    self.runBenchmark(benchmark, benchmark_file)
+  File "../../optimistic_tuner.py", line 430, in runBenchmark
+    if self.makeAndVerify(benchmark, initial=True):
+  File "../../optimistic_tuner.py", line 660, in makeAndVerify
+    stderr=sp.DEVNULL)
+  File "/home/bhomerding/repo/spack/opt/spack/linux-rhel7-x86_64/gcc-7.2.0/python-3.7.0-npxzuzvizvuj7tscxflbflbir7anfrja/lib/python3.7/subprocess.py", line 455, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/home/bhomerding/repo/spack/opt/spack/linux-rhel7-x86_64/gcc-7.2.0/python-3.7.0-npxzuzvizvuj7tscxflbflbir7anfrja/lib/python3.7/subprocess.py", line 912, in communicate
+    self.wait()
+  File "/home/bhomerding/repo/spack/opt/spack/linux-rhel7-x86_64/gcc-7.2.0/python-3.7.0-npxzuzvizvuj7tscxflbflbir7anfrja/lib/python3.7/subprocess.py", line 971, in wait
+    return self._wait(timeout=timeout)
+  File "/home/bhomerding/repo/spack/opt/spack/linux-rhel7-x86_64/gcc-7.2.0/python-3.7.0-npxzuzvizvuj7tscxflbflbir7anfrja/lib/python3.7/subprocess.py", line 1601, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/home/bhomerding/repo/spack/opt/spack/linux-rhel7-x86_64/gcc-7.2.0/python-3.7.0-npxzuzvizvuj7tscxflbflbir7anfrja/lib/python3.7/subprocess.py", line 1559, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
